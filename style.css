@@ -26,6 +26,7 @@ body {
   color: white;
   background-color: black;
   transition: 0.5s;
+  text-transform: uppercase;
 }
 
 .girls {

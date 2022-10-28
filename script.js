@@ -27,7 +27,7 @@ document.addEventListener("mouseover", function (e) {
     victory.classList.remove("hidden");
     counter = 0;
   } else {
-    messageElem.textContent = message[counter].toUpperCase();
+    messageElem.textContent = message[counter];
     victory.classList.add("hidden");
     counter++;
   }
@@ -58,6 +58,6 @@ function buildGirls() {
 *                          MAIN                            
 ==============================================================**/
 let counter = 0;
-const message = ["Konstantin", "prihodi", "v", "subbotu", "na", "pokurku"];
+const message = ["konstantin", "prihodi", "v", "subbotu", "na", "pokurku"];
 
 buildGirls();
