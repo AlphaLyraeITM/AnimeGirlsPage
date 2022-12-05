@@ -58,6 +58,8 @@ function buildGirls() {
 *                          MAIN                            
 ==============================================================**/
 let counter = 0;
-const message = ["konstantin", "prihodi", "v", "subbotu", "na", "pokurku"];
+const messageStr =
+  "Антон с первым днем коммандировки тебя! спасибо за компанию!";
+const message = messageStr.split(" ");
 
 buildGirls();
